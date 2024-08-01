@@ -21,3 +21,9 @@ variable "location" {
   type    = string
   default = "we"
 }
+
+variable "cert_password" {
+  description = "Password of the certificate"
+  type    = string
+  sensitive   = true
+}
