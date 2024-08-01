@@ -1,6 +1,6 @@
 .DS_Store
 .vs/
-
+**/certs/*
 
 # Local .terraform directories
 **/.terraform/*
