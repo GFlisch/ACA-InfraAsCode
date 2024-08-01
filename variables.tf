@@ -27,3 +27,10 @@ variable "cert_password" {
   type    = string
   sensitive   = true
 }
+
+variable "registry" {
+  description = "registry address"
+  type    = string
+  default = "demoarc4u.azurecr.io"
+}
+
